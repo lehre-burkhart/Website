@@ -69,11 +69,3 @@ p {
 #feedback-content {
 	width: 80%;
 }
-
-.row-divided .divider-md {margin: 0 !important;position: absolute;z-index: 10; top: 50%; left: 50%; margin: 0; padding: 0; width: auto; height: 50%; line-height: 0; text-align:center; text-transform: uppercase; transform: translateX(-50%);}
-.row-divided .divider-md:before, .row-divided .divider-md:after {background-color: transparent !important;display: inherit !important;display: inline-block !important;height: calc(100% - 1.5rem) !important;position: absolute !important;width: 0 !important;left: 50% !important;content: '';z-index: 9;border-left: 2px solid rgba(34,36,38,.15);border-right: 2px solid rgba(255,255,255,.1);}
-.row-divided .divider-md {height: calc(50% - 1rem);}
-.row-divided .divider-md:before {top: -100%;margin-left: unset !important;}
-.row-divided .divider-md:after {top: auto;bottom: 0;margin-right: unset !important;}
-.row-divided {position:relative;}
-.row-divided > div[class*="col-"] {padding-left: 40px; padding-right: 40px;}
