@@ -46,3 +46,26 @@ p {
     height: auto;
 
 }
+
+/**
+ * Feedbackseite
+ */
+
+/* Durch Flexboxen könnt ihr div Elemente auch
+ in der Reihe anordnen:
+ https://css-tricks.com/snippets/css/a-guide-to-flexbox/;
+*/
+.feedback {
+	display: flex;
+	flex-direction: row;
+}
+
+/* Mit der Prozentangabe sagt ihr, wie breit diese Element
+   in Ratio zur Bildschirmbreite sein soll */
+#feedback-image {
+	width: 20%;
+}
+
+#feedback-content {
+	width: 80%;
+}
